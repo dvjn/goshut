@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/dvjn/goshut"
+	"dvjn.dev/goshut"
 )
 
 func main() {

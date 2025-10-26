@@ -1,4 +1,4 @@
-module github.com/dvjn/goshut
+module dvjn.dev/goshut
 
 go 1.24.6
 

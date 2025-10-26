@@ -9,7 +9,7 @@
 ```golang
 import (
 	"context"
-	"github.com/dvjn/goshut"
+	"dvjn.dev/goshut"
 )
 
 func main() {
@@ -31,7 +31,7 @@ func main() {
 import (
 	"context"
 	"time"
-	"github.com/dvjn/goshut"
+	"dvjn.dev/goshut"
 )
 
 func main() {
@@ -41,7 +41,7 @@ func main() {
     )
 
     gs.Register(/* cleanup function */)
-    
+
     gs.WaitAndShutdown()
 }
 ```
